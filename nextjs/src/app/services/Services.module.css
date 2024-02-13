@@ -1,0 +1,48 @@
+.servicesContainer {
+  height: 92vh;
+  max-height: 92vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.servicesContainer div {
+  width: 100%;
+  height: 92vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.servicesContainer h1,
+.servicesContainer p {
+  z-index: 1;
+  margin: 0 3rem;
+  line-height: 140%;
+  color: var(--white);
+}
+.servicesContainer p {
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .servicesContainer h1,
+  .servicesContainer p {
+    margin: 0 8rem;
+  }
+  .servicesContainer p {
+    font-size: 2.25rem;
+    bottom: 4rem;
+  }
+}
+@media (min-width: 1080px) {
+  .servicesContainer h1,
+  .servicesContainer p {
+    margin: 0 15rem;
+  }
+}

@@ -1,0 +1,25 @@
+.contactContainer {
+  height: 92vh;
+  max-height: 92vh;
+}
+
+.contactContainer div {
+  width: 100%;
+  height: 92vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.contactContainer h1,
+.contactContainer p {
+  z-index: 1;
+  color: var(--white);
+  margin: 0 3rem;
+}
+
+.contactContainer p {
+  font-size: 2rem;
+  line-height: 150%;
+}

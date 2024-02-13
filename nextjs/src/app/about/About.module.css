@@ -1,0 +1,42 @@
+.aboutContainer {
+  height: 92vh;
+  max-height: 92vh;
+}
+
+.aboutContainer div {
+  width: 100%;
+  height: 92vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.aboutContainer h2,
+.aboutContainer p {
+  z-index: 1;
+  color: var(--white);
+  margin: 0 3rem;
+}
+.aboutContainer p {
+  font-size: 2rem;
+  line-height: 150%;
+  margin: 6rem 3rem 0 3rem;
+}
+@media (min-width: 768px) {
+  .aboutContainer h2 {
+    margin: 0 8rem;
+  }
+  .aboutContainer p {
+    font-size: 2.25rem;
+    margin: 10rem 8rem 0 8rem;
+  }
+}
+@media (min-width: 1080px) {
+  .aboutContainer h2 {
+    margin: 0 15rem;
+  }
+  .aboutContainer p {
+    margin: 10rem 8rem 0 8rem;
+  }
+}

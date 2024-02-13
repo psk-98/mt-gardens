@@ -1,0 +1,103 @@
+.modal {
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  width: 100%;
+  height: 92vh;
+  top: 8vh;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.75rem;
+  font-family: var(--headerFont);
+}
+.formWrapperControls {
+  text-transform: uppercase;
+  margin: 0 3rem 5rem 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+.formWrapperControls button {
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 1.25rem;
+}
+.formWrapper {
+  background: var(--white);
+  width: calc(100% - 8rem);
+  padding: 2rem 0 6rem 0;
+  z-index: 5;
+}
+.eventName,
+.formWrapper form,
+.eventDate,
+.noPeople,
+.formBtn {
+  margin: 0 3rem;
+  text-transform: capitalize;
+}
+.eventDate {
+  margin: 3rem;
+}
+.eventName label,
+.eventDate label {
+  margin: 0 0 2rem 0;
+}
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0 0 1rem;
+}
+.eventList,
+.noPeople input {
+  display: flex;
+  background: var(--white);
+  flex-direction: column;
+}
+.eventList span,
+.eventList input {
+  padding: 0.5rem 1rem;
+}
+.eventList span.active {
+  background: var(--black);
+  color: var(--white);
+}
+.noPeople input {
+  background: none;
+  border: none;
+  outline: none;
+  margin: 1rem 0 0 1rem;
+}
+.noPeople input:focus {
+  border: 1px solid var(--black);
+}
+.formBtn {
+  margin: 5rem 3rem 0 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.disabledText {
+  color: var(--gray);
+}
+
+/* step two */
+.formWrapper form div,
+.formWrapper form div input {
+  width: calc(100% - 2rem);
+}
+.formWrapper form div input {
+  padding: 1rem;
+  border: none;
+  background: none;
+}
+.formWrapper form div input[type="email"] {
+  margin: 2rem 0;
+}
+
+.bookingBtn {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0 0 0;
+}

@@ -1,0 +1,58 @@
+.navTop {
+  position: fixed;
+  height: 8vh;
+  padding: 0 3rem;
+  top: 0;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 3;
+  background: var(--black);
+}
+.navList {
+  display: none;
+}
+.burger {
+  width: 4.25rem;
+  cursor: pointer;
+}
+.line1,
+.line2 {
+  height: 2px;
+  width: 100%;
+  background: var(--white);
+}
+.line2 {
+  margin: 0.75rem 0 0 0;
+  width: 3.25rem;
+}
+
+.sidebar {
+  position: fixed;
+  max-width: 100%;
+  left: 0;
+  right: 0;
+  height: 92vh;
+  top: 8vh;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--black);
+  bottom: 0;
+}
+.sideItem {
+  font-size: 3rem;
+  font-family: var(--headerFont);
+  text-transform: capitalize;
+  cursor: pointer;
+  color: var(--white);
+  margin: 0 0 7rem 0;
+}
+.sideItem:last-child {
+  margin: 0;
+}

@@ -1,0 +1,7 @@
+.mapContainer {
+  margin: 0 0 16rem 0;
+}
+.pin p {
+  color: #f00;
+  width: fit-content;
+}

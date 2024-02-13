@@ -1,0 +1,44 @@
+.hero {
+  text-align: center;
+  min-height: 92vh;
+}
+.heroImg {
+  display: none;
+}
+.hero h1 {
+  padding: 7.75rem 0 0 0;
+}
+.hero p {
+  font-size: 2.25rem;
+  line-height: 135%;
+  margin: 7rem 0;
+}
+.hero a {
+  font-size: 2.25rem;
+}
+@media (min-width: 768px) {
+  .hero {
+    display: flex;
+    align-items: center;
+  }
+}
+@media (min-width: 1080px) {
+  .hero {
+    justify-content: end;
+  }
+  .heroImg {
+    display: block;
+    width: calc(58% + 15rem);
+    margin: 0 0 0 -15rem;
+    height: 92vh;
+  }
+  .heroImg img {
+    width: 100%;
+    height: 100%;
+  }
+  .heroCopy {
+    width: 42%;
+    padding: 0 0 0 3rem;
+    text-align: center;
+  }
+}
